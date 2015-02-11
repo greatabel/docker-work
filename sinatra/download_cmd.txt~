@@ -1,4 +1,4 @@
 wget --cut-dirs=3 -nH -r --no-parent http://dockerbook.com/code/5/sinatra/webapp
 
-in docker,start webapp:
+in docker:
  nohup /opt/webapp/bin/webapp & 
