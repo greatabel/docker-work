@@ -3,7 +3,7 @@ MAINTAINER James Turnbull <james@example.com>
 ENV REFRESHED_AT 2014-06-01
 
 RUN apt-get -yqq update
-RUN apt-get -yqq install nodejs npm
+RUN apt-get -yqq install nodejs-legacy npm
 RUN ln -s /usr/bin/nodejs /usr/bin/node
 RUN mkdir -p /var/log/nodeapp
 
